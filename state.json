@@ -1,0 +1,31 @@
+{
+    "config": {
+        "sdex_stable_asset": "EURC:GAQRF3UGHBT6JYQZ7YSUYCIYWAF4T2SAA5237Q5LIQYJOHHFAWDXZ7NM",
+        "stable_asset_amount": 20,
+        "horizon_url": "https://horizon.stellar.org",
+        "poll_interval_seconds": 5
+    },
+    "prices": {
+        "XLM-USD": {
+            "percent_change": 0.0,
+            "time_stamp": 1685520780000,
+            "price": 0.09,
+            "previous_price": 0.09
+        },
+        "AQUA-EURC": {
+            "percent_change": 0.0,
+            "time_stamp": 1685535217,
+            "price": 0.0004491,
+            "previous_price": 0.0004491
+        }
+    },
+    "price_specific_config": {
+        "XLM-USD": {
+            "mode": "ccxt"
+        },
+        "AQUA-EURC": {
+            "mode": "sdex",
+            "asset": "AQUA:GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA"
+        }
+    }
+}
